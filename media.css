@@ -1,0 +1,97 @@
+/*Media*/
+
+
+@media screen and (max-width: 50000px ) {
+    .intro_iconn {
+
+    display: none;  
+
+    }
+
+    .portfolio_imgg {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .nav {
+        display: none;
+    }
+
+    .border {
+        display: none;
+    }
+
+    .burger {
+        margin-left: 260px;
+        display: block;
+    }
+    
+    .intro_icon {
+        display: none;
+        
+    }
+    .icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro_iconn {
+        display: block;
+
+    }
+
+
+    .intro_item {
+        margin-right: 300px;
+        display: block;
+    }
+
+    .intro_subtitle {
+        margin-left: 100px;
+        margin-top: 25px;
+        margin-bottom: 36px;
+        font-family: 'Gilroy-Medium';
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .portfolio_img {
+        display: none;
+    }
+    .portfolio_imgg {
+        margin-left: 250px;
+        display: block;
+    }
+
+    .portfolio_features {
+        margin-top: 100px;
+    }
+
+    .about {
+        margin-top: 200px;
+    }
+
+    .features {
+        display: block;
+    }
+
+    .features_item {
+        margin: 50px 0px;
+    }
+
+
+    .footer {
+        margin-top: 162px;
+    }
+    
+    .social {
+        margin-top: 60px;
+    }
+
+
+
+
+}
